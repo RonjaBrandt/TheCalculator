@@ -6,6 +6,8 @@ import static org.junit.Assert.*;
 
 public class MathTest {
 
+    // @Before
+
     @Test
     public void add() {
         Math math = new Math();
