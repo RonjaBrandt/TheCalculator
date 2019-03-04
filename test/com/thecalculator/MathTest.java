@@ -9,7 +9,7 @@ public class MathTest {
     @Test
     public void add() {
         Math math = new Math();
-        assertEquals(0,math.add(1,1));
+        assertEquals(2,math.add(1,1));
 
 
         //See if Java can add
@@ -32,7 +32,7 @@ public class MathTest {
     @Test
     public void multiplication() {
         Math math = new Math();
-        assertEquals(0, math.multiplication(1,1));
+        assertEquals(1, math.multiplication(1,1));
 
         //See if Java can do Multiplication
         //long sum =2*3;
