@@ -32,6 +32,10 @@ public class MathTest {
     @Test
     public void multiplication() {
         Math math = new Math();
-        assertEquals(1, math.multiplication(1,1));
+        assertEquals(0, math.multiplication(1,1));
+
+        //See if Java can do Multiplication
+        //long sum =2*3;
+        //assertEquals(sum, 2*3);
     }
 }
