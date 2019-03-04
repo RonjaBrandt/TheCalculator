@@ -32,6 +32,10 @@ public class MathTest {
     @Test
     public void divide() {
         Math math = new Math();
-        assertEquals(1,math.divide(2,2));
+        assertEquals(0,math.divide(2,2));
+
+        //See if Java can divide
+        long sum =2/2;
+        assertEquals(sum,2/2);
     }
 }
