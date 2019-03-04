@@ -28,4 +28,10 @@ public class MathTest {
         //long sum = 10-9;
         //assertEquals(sum, 10-9);
     }
+
+    @Test
+    public void multiplication() {
+        Math math = new Math();
+        assertEquals(1, math.multiplication(1,1));
+    }
 }
