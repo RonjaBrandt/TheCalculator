@@ -1,6 +1,6 @@
 package com.thecalculator;
 
-public class Math implements Add, Subtract {
+public class Math implements Add, Subtract, Multiplication {
 
 
     @Override
@@ -13,5 +13,10 @@ public class Math implements Add, Subtract {
     public long subtract(long number1, long number2) {
         long sum = number1-number2;
         return sum;
+    }
+
+    @Override
+    public long multiplication(long number1, long number2) {
+        return 0;
     }
 }
