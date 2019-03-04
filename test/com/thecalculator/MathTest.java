@@ -10,6 +10,8 @@ public class MathTest {
     public void add() {
         Math math = new Math();
 
+        assertEquals(1,math.add(1));
+
 
     }
 
