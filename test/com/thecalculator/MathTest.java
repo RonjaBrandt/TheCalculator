@@ -21,7 +21,7 @@ public class MathTest {
     @Test
     public void subtract() {
         Math math = new Math();
-        assertEquals(0, math.subtract(1, 1));
+        assertEquals(1, math.subtract(2, 1));
 
 
         //See if Java can subtract
@@ -32,7 +32,7 @@ public class MathTest {
     @Test
     public void divide() {
         Math math = new Math();
-        assertEquals(0,math.divide(2,2));
+        assertEquals(1,math.divide(2,2));
 
         //See if Java can divide
         long sum =2/2;
