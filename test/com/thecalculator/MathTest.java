@@ -25,8 +25,18 @@ public class MathTest {
 
 
         //See if Java can subtract
-        long sum = 10-9;
-        assertEquals(sum, 10-9);
+        //long sum = 10-9;
+        //assertEquals(sum, 10-9);
+    }
+
+    @Test
+    public void multiplication() {
+        Math math = new Math();
+        assertEquals(0, math.multiplication(1,1));
+
+        //See if Java can do Multiplication
+        //long sum =2*3;
+        //assertEquals(sum, 2*3);
     }
 
     @Test
