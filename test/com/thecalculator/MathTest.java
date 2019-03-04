@@ -10,7 +10,7 @@ public class MathTest {
     public void add() {
         Math math = new Math();
 
-        assertEquals(0,math.add(1));
+        assertEquals(0,math.add(1,1));
 
 
     }
@@ -19,6 +19,6 @@ public class MathTest {
     public void subtract() {
         Math math = new Math();
 
-        assertEquals(0,math.subtract(1));
+        assertEquals(0,math.subtract(1,1));
     }
 }
