@@ -10,4 +10,8 @@ public class MathTest {
     public void add() {
 
     }
+
+    @Test
+    public void add1() {
+    }
 }
