@@ -2,13 +2,14 @@ package com.thecalculator;
 
 public class Math implements Add, Subtract {
 
+
     @Override
-    public int add(int number) {
+    public long add(long number) {
         return 0;
     }
 
     @Override
-    public int subtract(int number) {
+    public long subtract(long number) {
         return 0;
     }
 }
