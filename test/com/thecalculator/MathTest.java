@@ -16,7 +16,9 @@ public class MathTest {
     }
 
     @Test
-    public void add1() {
+    public void subtract() {
+        Math math = new Math();
 
+        assertEquals(1,math.subtract(1));
     }
 }
