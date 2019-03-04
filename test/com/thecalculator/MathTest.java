@@ -25,7 +25,7 @@ public class MathTest {
 
 
         //See if Java can subtract
-        long sum = 10-9;
-        assertEquals(sum, 10-9);
+        //long sum = 10-9;
+        //assertEquals(sum, 10-9);
     }
 }
